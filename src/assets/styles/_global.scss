@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+body {
+    font-family: $OpenSans;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $primary;
+    background-color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
